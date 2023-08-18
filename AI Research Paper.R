@@ -6,20 +6,6 @@ reticulate::use_condaenv("/Users/nguyenann/Library/r-miniconda-arm64/envs/r-reti
 reticulate::py_config()
 # tensorflow::tf_config()
 
-# create a new environment 
-# conda_create("r-reticulate")
-# 
-# install numpy
-# conda_install("r-reticulate", "numpy")
-
-# import numpy (it will be automatically discovered in "r-reticulate")
-# scipy <- import("numpy")
-
-# Install EBImage
-# if (!requireNamespace("BiocManager", quietly = TRUE))
-#   install.packages("BiocManager")
-# 
-# BiocManager::install("EBImage")
 
 library(jpeg)
 library(SpatialPack)
@@ -28,16 +14,11 @@ library(keras)
 library(caret)
 library(tidyr)
 library(mltools)
-#library(imager)
 
 set.seed(1)
 
 image_dir <- "/Users/nguyenann/Downloads/MS AI/NEU-DET/IMAGES"
 annotation_dir <- "/Users/nguyenann/Downloads/MS AI/NEU-DET/ANNOTATIONS"
-# 
-# test_dir <- "/Users/nguyenann/Downloads/NEU-DET/test/images/scratches"
-# image_test <- list.files(test_dir, pattern = ".jpg$", full.names = TRUE)
-# image_test_data <- lapply(image_test, readJPEG)
 
 # read in image data
 
@@ -107,15 +88,6 @@ test_images <- test_images/255
 # Define the number of classes
 num_classes <- 6
 
-# # Base model
-# base_model <- keras_model_sequential()
-# base_model %>%
-#   layer_conv_2d(filters = 32, kernel_size = c(3,3), activation = "relu", input_shape = input_shape) %>%
-#   layer_max_pooling_2d(pool_size = c(2,2)) %>%
-#   layer_flatten() %>%
-#   layer_dense(units = 64, activation = "relu") %>%
-#   layer_dropout(rate = 0.5) %>%
-#   layer_dense(units = num_classes, activation = "softmax")
 
 # Define the CNN architecture
 # Baseline model
