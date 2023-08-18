@@ -15,12 +15,14 @@ The dataset has 1,800 grayscale images with annotations: 300 samples each of six
 
 **Figure 1** shows some sample images of 6 kinds of typical surface defects:
 
-<img align=”center” width="433" alt="Screenshot 2023-08-18 at 12 03 35 PM" src="https://github.com/panhh20/Defects_Detection/assets/122824839/302c0014-efb6-45f3-879c-19731e8d54af"> 
+<p align="center">
+<img width="433" alt="Screenshot 2023-08-18 at 12 03 35 PM" src="https://github.com/panhh20/Defects_Detection/assets/122824839/302c0014-efb6-45f3-879c-19731e8d54af"> </p>
 
 In short, the NEU surface defect database includes two difficult challenges, i.e., the intra-class defects existing large differences in appearance while the inter-class defects have similar aspects, the defect images suffer from the influence of illumination and material changes. The dataset includes annotations
 which indicate the class and location of a defect in each image. For each defect, the yellow box is the bounding box indicating its location and the green label is the class score.
 
-<img align=”center” width="452" alt="Screenshot 2023-08-18 at 12 04 41 PM" src="https://github.com/panhh20/Defects_Detection/assets/122824839/e8febe11-fa29-44fe-aa2d-c898dc31e915" loc="center">
+<p align="center">
+<img align=”center” width="452" alt="Screenshot 2023-08-18 at 12 04 41 PM" src="https://github.com/panhh20/Defects_Detection/assets/122824839/e8febe11-fa29-44fe-aa2d-c898dc31e915" loc="center"> </p>
 
 
 ## Methodology
