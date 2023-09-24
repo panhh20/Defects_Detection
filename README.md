@@ -1,5 +1,5 @@
 # Product defects detection using Deep Learning
-Detect products' surface defects using Deep Learning. See the full pdf [here]([url](https://github.com/panhh20/Defects_Detection/blob/main/MS%20AI%20Research%20paper.pdf)).
+Detect products' surface defects using Deep Learning. See the full pdf [here](https://github.com/panhh20/Defects_Detection/blob/main/MS%20AI%20Research%20paper.pdf).
 
 
 ## Abstract
@@ -9,7 +9,7 @@ Defects can result in significant waste and expenses to manufacturing businesses
 ## Dataset Description
 Northeastern University (NEU) surface defect database (*)
 Author: Kechen Song and Yunhui Yan
-Link to download: [Google Drive]([url](https://drive.google.com/file/d/1qrdZlaDi272eA79b0uCwwqPrm2Q_WI3k/view)) / Google Drive ([Backup link]([url](https://drive.google.com/file/d/1epWS-oQ6UsYCFhXDbc8EbXxpXJjpRhBT/view?usp=share_link)))
+Link to download: [Google Drive](https://drive.google.com/file/d/1qrdZlaDi272eA79b0uCwwqPrm2Q_WI3k/view) / Google Drive ([Backup link](https://drive.google.com/file/d/1epWS-oQ6UsYCFhXDbc8EbXxpXJjpRhBT/view?usp=share_link))
 
 The dataset has 1,800 grayscale images with annotations: 300 samples each of six different kinds of typical surface defects of the hot-rolled steel strip: rolled-in scale (RS), patches (Pa), crazing (Cr), pitted surface (PS), inclusion (In) and scratches (Sc). The original resolution of each image is 200×200 pixels.
 
