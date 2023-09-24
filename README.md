@@ -1,5 +1,5 @@
 # Product defects detection using Deep Learning
-Detect products' surface defects using Deep Learning
+Detect products' surface defects using Deep Learning. See the full pdf [here]([url](https://github.com/panhh20/Defects_Detection/blob/main/MS%20AI%20Research%20paper.pdf)).
 
 
 ## Abstract
